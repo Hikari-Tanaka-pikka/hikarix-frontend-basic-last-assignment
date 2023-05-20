@@ -653,6 +653,9 @@ table textarea {
   padding: 16px 0;
   background-color: #000;
 }
+.footer .copyright-wrapper p {
+  margin-bottom: 0;
+}
 .footer .copyright-wrapper .copyright {
   font-size: 12px;
   line-height: 12px;
@@ -1690,6 +1693,7 @@ table textarea {
 @media (max-width: 1200px) {
   .relative {
     display: block;
+    width: 100%;
   }
 }
 a,
