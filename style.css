@@ -1118,7 +1118,7 @@ table textarea {
 }
 .organisms-plans .plans-wrapper {
   display: grid;
-  grid-template-columns: auto auto auto;
+  grid-template-columns: 1fr 1fr 1fr;
   gap: 15px;
   margin: 0 24px;
 }
