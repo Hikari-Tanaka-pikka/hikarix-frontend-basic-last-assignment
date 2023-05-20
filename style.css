@@ -1134,7 +1134,7 @@ table textarea {
   }
 }
 .organisms-top .top-image {
-  background-image: url(https://github.com/Hikari-Tanaka-pikka/hikarix-frontend-basic-last-assignment/blob/page/src/img/top-image.png?raw=true);
+  background-image: url(../img/top-image.png);
   height: 100vh;
   background-size: cover;
   position: relative;
@@ -1673,7 +1673,8 @@ table textarea {
   }
 }
 .relative {
-  position: relative;
+  position: absolute;
+  z-index: 1;
   display: none;
 }
 .relative ul {
@@ -1685,11 +1686,6 @@ table textarea {
 }
 .relative .dropdown {
   width: 100%;
-}
-@media (max-width: 1200px) {
-  .relative .dropdown {
-    position: static;
-  }
 }
 @media (max-width: 1200px) {
   .relative {
